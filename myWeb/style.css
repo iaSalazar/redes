@@ -1,0 +1,57 @@
+table#t01 {
+    width: 36%;
+    background-color: #ececec;
+}
+
+table#t01 tr:nth-child {
+    background-color: #eee;
+}
+
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+.container {
+    grid-template-columns: 40px 50px auto 50px 40px;
+    grid-template-rows: 25% 100px auto;
+}
+
+#t01 {
+    grid-column-start: 1;
+    grid-column-end: span col4-start;
+    grid-row-start: 10;
+    grid-row-end: span 2;
+}
+
+ul {
+    text-align: center;
+}
+
+.contVid {
+    width:80%;
+    height:400px;
+    margin-top: 1rem;
+}
+
+.contImg {
+    width:80%;
+    height:400px;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+.cont {
+    width:100px;
+    height:100px;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+img, video {
+    float:left;
+    width:50%;
+    height:100%;
+    object-fit:cover;
+}
